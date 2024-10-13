@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Open-Sans';
+    src: url('fonts/OpenSans-Regular.woff') format('.woff2'),
+    url('fonts/OpenSans-Regular.woff2') format('woff2');
+}
+
+body{
+    background-color: aqua;
+    font-family: 'Open-Sans';
+}
+
+div{
+    background-color: aliceblue;
+    & p{
+        color: purple; 
+    }
+}
+
